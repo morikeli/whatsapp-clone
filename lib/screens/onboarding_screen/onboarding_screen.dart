@@ -53,7 +53,7 @@ class OnboardingScreen extends StatelessWidget {
                 color: kPrimaryColor,
               ),
               child: TextButton(
-                onPressed: () => Navigator.popAndPushNamed(context, LoginScreen.routeName),
+                onPressed: () => Navigator.pushNamed(context, LoginScreen.routeName),
                 child: const Text('Agree and continue', style: TextStyle(color: Colors.black)),
               ),
             )
