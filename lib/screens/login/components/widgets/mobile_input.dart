@@ -33,6 +33,7 @@ class MobileNumberInputField extends StatelessWidget {
                 hintStyle: TextStyle(color: Colors.grey),
               ),
               keyboardType: TextInputType.number,
+              style: const TextStyle(color: kTextColor),
             ),
           )
         ],
