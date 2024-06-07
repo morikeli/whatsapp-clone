@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone/constants/colors.dart';
+import 'package:whatsapp_clone/screens/otp/otp_screen.dart';
 
 
 class NextButton extends StatelessWidget {
@@ -16,7 +17,7 @@ class NextButton extends StatelessWidget {
         color: kPrimaryColor,
       ),
       child: TextButton(
-        onPressed: () {},
+        onPressed: () => Navigator.pushNamed(context, OTPScreen.routeName),
         child: const Text('Next', style: TextStyle(color: Colors.black)),
       ),
     );
