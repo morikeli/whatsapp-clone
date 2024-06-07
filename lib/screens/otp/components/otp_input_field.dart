@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone/constants/colors.dart';
+import 'package:whatsapp_clone/screens/signup/signup_screen.dart';
 
 
 class OtpInputField extends StatelessWidget {
@@ -19,7 +20,11 @@ class OtpInputField extends StatelessWidget {
         keyboardType: TextInputType.number,
         style: const TextStyle(color: kTextColor),
         textAlign: TextAlign.center,
-        onChanged: (value) {},
+        onChanged: (value) {
+          if (value.isNotEmpty && value.length >= 6) {
+            Navigator.pushNamed(context, SignupScreen.routeName);
+          }
+        },
       ),
     );
   }
