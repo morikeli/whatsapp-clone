@@ -20,6 +20,7 @@ class UsernameInputField extends StatelessWidget {
           child: TextField(
             controller: usernameController,
             decoration: const InputDecoration(
+              contentPadding: EdgeInsets.symmetric(horizontal: 10.0),
               hintText: 'Enter your name',
               hintStyle: TextStyle(color: kTextColor),
             ),
