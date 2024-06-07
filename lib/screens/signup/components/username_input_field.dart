@@ -31,6 +31,7 @@ class UsernameInputField extends StatelessWidget {
         ),
         IconButton(
           onPressed: () {},
+          color: kIconColor,
           icon: const Icon(Icons.check),
         )
       ],
