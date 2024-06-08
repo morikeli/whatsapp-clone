@@ -1,0 +1,110 @@
+class Chat {
+  final String profilePicture;
+  final String username;
+  final String message;
+  final String timeStamp;
+  final bool isRead;
+  final bool isReceived;
+
+  Chat({
+    required this.username,
+    required this.message,
+    required this.profilePicture,
+    required this.timeStamp,
+    this.isRead = false,
+    this.isReceived = false,
+  });
+
+}
+
+// demo data - chats
+List<Chat> userMessages = [
+  Chat(
+    username: 'Sarah J', 
+    message: 'Hello daddzzzyy! 😍😍', 
+    profilePicture: 'assets/img/dps/8.jpg', 
+    timeStamp: '13:45',
+  ),
+  Chat(
+    username: 'Python/Django devs group', 
+    message: '~ dev.kali: Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, numquam omnis aspernatur illo tenetur beatae labore impedit eveniet, explicabo voluptates eaque sint qui odit error fugiat ex sunt asperiores quae.', 
+    profilePicture: 'assets/img/dps/10.jpeg', 
+    timeStamp: '13:30',
+  ),
+  Chat(
+    username: '+254112345678 (You)', 
+    message: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, numquam omnis aspernatur illo tenetur beatae labore impedit eveniet, explicabo voluptates eaque sint qui odit error fugiat ex sunt asperiores quae.', 
+    profilePicture: 'assets/img/default.png', 
+    timeStamp: '13:15',
+    isRead: true,
+    isReceived: true,
+  ),
+  Chat(
+    username: 'The Legal Man (Masculinity)', 
+    message: '~ king: A man is driven by purpose. Find your purpose in life and you will become unstoppable!', 
+    profilePicture: 'assets/img/dps/11.jpeg', 
+    timeStamp: '13:00',
+  ),
+  Chat(
+    username: 'Brenda jones', 
+    message: "I'll be available tomorrow. Pick me up at my place at 13:30.", 
+    profilePicture: 'assets/img/dps/7.jpg', 
+    timeStamp: '12:30',
+    isRead: false,
+    isReceived: true,
+  ),
+  Chat(
+    username: 'Yule msee', 
+    message: 'Buda! Tumebook PS4 kuja tuguze FIFA na mbogi ... 😅😅', 
+    profilePicture: 'assets/img/dps/3.jpg', 
+    timeStamp: 'Yesterday',
+    isRead: false,
+    isReceived: true,
+  ),
+  Chat(
+    username: '+254712345689', 
+    message: "Hey testuser. It's  I have changed my mobile no. Kindly contact me via this number. 😘", 
+    profilePicture: 'assets/img/dps/1.jpg', 
+    timeStamp: 'Yesterday',
+  ),
+  Chat(
+    username: 'John Doe', 
+    message: 'Yoh! Umefanya ile assignment unitumie majibu? ', 
+    profilePicture: 'assets/img/dps/4.jpg', 
+    timeStamp: '06/05/24',
+    isRead: true,
+    isReceived: true,
+  ),
+  Chat(
+    username: 'Bookwormers', 
+    message: '~ arthur: Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, numquam omnis aspernatur illo tenetur beatae labore impedit eveniet, explicabo voluptates eaque sint qui odit error fugiat ex sunt asperiores quae.', 
+    profilePicture: 'assets/img/dps/10.jpeg', 
+    timeStamp: '05/31/24',
+  ),
+  Chat(
+    username: 'Amanda', 
+    message: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, numquam omnis aspernatur illo tenetur beatae labore impedit eveniet, explicabo voluptates eaque sint qui odit error fugiat ex sunt asperiores quae.', 
+    profilePicture: 'assets/img/dps/2.jpg', 
+    timeStamp: '05/20/24',
+    isRead: true,
+    isReceived: true,
+  ),
+  Chat(
+    username: 'Jane Doe', 
+    message: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, numquam omnis aspernatur illo tenetur beatae labore impedit eveniet, explicabo voluptates eaque sint qui odit error fugiat ex sunt asperiores quae.', 
+    profilePicture: 'assets/img/dps/5.jpg', 
+    timeStamp: '05/16/24',
+  ),
+  Chat(
+    username: 'Hugo', 
+    message: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, numquam omnis aspernatur illo tenetur beatae labore impedit eveniet, explicabo voluptates eaque sint qui odit error fugiat ex sunt asperiores quae.', 
+    profilePicture: 'assets/img/dps/6.jpg', 
+    timeStamp: '05/15/24',
+  ),
+  Chat(
+    username: 'Tate', 
+    message: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, numquam omnis aspernatur illo tenetur beatae labore impedit eveniet, explicabo voluptates eaque sint qui odit error fugiat ex sunt asperiores quae.', 
+    profilePicture: 'assets/img/dps/9.jpg', 
+    timeStamp: '04/25/24',
+  ),
+];
