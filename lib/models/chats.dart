@@ -78,7 +78,7 @@ List<Chat> userMessages = [
   Chat(
     username: 'Bookwormers', 
     message: '~ arthur: Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, numquam omnis aspernatur illo tenetur beatae labore impedit eveniet, explicabo voluptates eaque sint qui odit error fugiat ex sunt asperiores quae.', 
-    profilePicture: 'assets/img/dps/10.jpeg', 
+    profilePicture: 'assets/img/dps/12.jpeg', 
     timeStamp: '05/31/24',
   ),
   Chat(
