@@ -23,8 +23,8 @@ class BottomNavBar extends StatelessWidget {
           label: 'Updates'
         ),
         BottomNavigationBarItem(
-          activeIcon: Icon(Icons.people),
-          icon: Icon(Icons.people_outline),
+          activeIcon: Icon(Icons.groups),
+          icon: Icon(Icons.groups_outlined),
           label: 'Communities'
         ),
         BottomNavigationBarItem(
