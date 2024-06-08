@@ -4,7 +4,7 @@
 
 | Welcome screen | Homescreen |
 | -------------- | ---------- |
-|  |  |
+| ![flutter_02](https://github.com/morikeli/whatsapp-clone/assets/78599959/46b0f639-e0b7-4f3a-af1a-2d139ee6331b) | ![flutter_01](https://github.com/morikeli/whatsapp-clone/assets/78599959/c2b5e054-27cd-4592-9e1c-e06192c59565) |
 
 ## Overview
 This is a WhatsApp mobile app clone.
