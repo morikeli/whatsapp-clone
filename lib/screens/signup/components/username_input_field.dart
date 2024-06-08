@@ -31,7 +31,7 @@ class UsernameInputField extends StatelessWidget {
           ),
         ),
         IconButton(
-          onPressed: () => Navigator.popAndPushNamed(context, Homepage.routeName),
+          onPressed: () => Navigator.popAndPushNamed(context, HomeScreen.routeName),
           color: kIconColor,
           icon: const Icon(Icons.check),
         )
