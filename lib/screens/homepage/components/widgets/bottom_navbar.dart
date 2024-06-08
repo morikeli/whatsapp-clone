@@ -4,13 +4,20 @@ import 'package:whatsapp_clone/screens/homepage/components/widgets/icons/updates
 
 
 class BottomNavBar extends StatelessWidget {
+  final void Function(int) selectedIcon;
+  final int screenIndex;
+  
   const BottomNavBar({
     super.key,
+    required this.selectedIcon,
+    required this.screenIndex,
   });
 
   @override
   Widget build(BuildContext context) {
     return BottomNavigationBar(
+      currentIndex: screenIndex,
+      onTap: selectedIcon,
       items: const [
         BottomNavigationBarItem(
           activeIcon: ChatsIcon(icon: Icons.message),
