@@ -82,7 +82,7 @@ List<Chat> userMessages = [
     timeStamp: '05/31/24',
   ),
   Chat(
-    username: 'Amanda', 
+    username: 'Sharon', 
     message: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, numquam omnis aspernatur illo tenetur beatae labore impedit eveniet, explicabo voluptates eaque sint qui odit error fugiat ex sunt asperiores quae.', 
     profilePicture: 'assets/img/dps/2.jpg', 
     timeStamp: '05/20/24',
