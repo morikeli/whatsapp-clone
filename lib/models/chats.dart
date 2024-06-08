@@ -41,13 +41,13 @@ List<Chat> userMessages = [
   ),
   Chat(
     username: 'The Legal Man (Masculinity)', 
-    message: '~ king: A man is driven by purpose. Find your purpose in life and you will become unstoppable!', 
+    message: '~ king: A man is driven by purpose. Find your purpose in life and you will become unstoppable! 💪🏾', 
     profilePicture: 'assets/img/dps/11.jpeg', 
     timeStamp: '13:00',
   ),
   Chat(
     username: 'Brenda jones', 
-    message: "I'll be available tomorrow. Pick me up at my place at 13:30.", 
+    message: "Sweet dreams boo 😘", 
     profilePicture: 'assets/img/dps/7.jpg', 
     timeStamp: '12:30',
     isRead: false,
@@ -63,13 +63,13 @@ List<Chat> userMessages = [
   ),
   Chat(
     username: '+254712345689', 
-    message: "Hey testuser. It's  I have changed my mobile no. Kindly contact me via this number. 😘", 
+    message: "Hey testuser. It's Amanda, I have changed my mobile no. Kindly contact me via this number. 😘", 
     profilePicture: 'assets/img/dps/1.jpg', 
     timeStamp: 'Yesterday',
   ),
   Chat(
     username: 'John Doe', 
-    message: 'Yoh! Umefanya ile assignment unitumie majibu? ', 
+    message: 'Yoh! Umefanya ile assignment unitumie majibu?', 
     profilePicture: 'assets/img/dps/4.jpg', 
     timeStamp: '06/05/24',
     isRead: true,
