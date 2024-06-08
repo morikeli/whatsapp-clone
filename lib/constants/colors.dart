@@ -13,6 +13,6 @@ const kBlueTickColor = Color(0xFF4488FC);
 const kGreyTickColor = Color(0xFF9E9E9E);
 const kTabColor = Color(0xFF00A783);
 const ksearchBarColor = Color(0xFF323739);
-const kDividerColor = Color(0xFF252D32);
+const kDividerColor = Color(0xFF424242);
 const kchatBarMessage = Color(0xFF1E2428);
 const kmobileChatBoxColor = Color(0xFF1F2C34);
