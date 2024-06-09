@@ -13,7 +13,6 @@ class Homepage extends StatelessWidget {
       appBar: homepageHeader(),
       body: const HomepageBody(),
       floatingActionButton: const NewMessageWidget(),
-      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }
