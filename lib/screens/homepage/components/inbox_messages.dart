@@ -50,9 +50,15 @@ class MessagesWidget extends StatelessWidget {
         child: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
-            messageTick!,
-            // const Icon(Icons.done_all, color: Colors.grey, size: 16.0),
-            const SizedBox(width: 5.0),
+            if(messageTick.isSender)  // check if the user is the one who sent the message
+              Icon(
+                messageTick.isReceived ? Icons.done_all : Icons.done, // if the message is received display double ticks else display a single 'tick/check' icon
+                color: messageTick.isRead ? kBlueTickColor : Colors.grey, // if the message is read blue tick are blue else grey
+                size: 16.0,
+              ),
+
+            if(messageTick.isSender)
+              const SizedBox(width: 5.0),
             SizedBox(
               width: MediaQuery.of(context).size.width * .66,
               child: Text(
