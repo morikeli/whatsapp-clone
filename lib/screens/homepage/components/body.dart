@@ -17,18 +17,17 @@ class _HomepageBodyState extends State<HomepageBody> {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      itemCount: 10,
+      itemCount: userMessages.length,
       itemBuilder: (context, int index) {
-        return MessagesWidget(
-          username: userMessages[index].username,
-          message: userMessages[index].message,
-          timeStamp: userMessages[index].timeStamp,
-          profilePicture: userMessages[index].profilePicture,
-          messageTick: 
-          userMessages[index].isRead && userMessages[index].isReceived 
-          ? const Icon(Icons.done_all, color: kBlueTickColor, size: 16.0)
-          : const Icon(Icons.done, color: Colors.grey, size: 16.0),
-
+        return InkWell(
+          onTap: () => Navigator.pushNamed(context, ChatScreen.routeName),
+          child: MessagesWidget(
+            username: userMessages[index].username,
+            message: userMessages[index].message,
+            timeStamp: userMessages[index].timeStamp,
+            profilePicture: userMessages[index].profilePicture,
+            messageTick: userMessages[index]
+          ),
         );
       }
     );
