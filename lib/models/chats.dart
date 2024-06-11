@@ -5,12 +5,14 @@ class Chat {
   final String timeStamp;
   final bool isRead;
   final bool isReceived;
+  final bool isSender;
 
   Chat({
     required this.username,
     required this.message,
     required this.profilePicture,
     required this.timeStamp,
+    this.isSender = true,
     this.isRead = false,
     this.isReceived = false,
   });
@@ -24,15 +26,17 @@ List<Chat> userMessages = [
     message: 'Hello daddzzzyy! 😍😍', 
     profilePicture: 'assets/img/dps/8.jpg', 
     timeStamp: '13:45',
+    isSender: false,
   ),
   Chat(
     username: 'Python/Django devs group', 
     message: '~ dev.kali: Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, numquam omnis aspernatur illo tenetur beatae labore impedit eveniet, explicabo voluptates eaque sint qui odit error fugiat ex sunt asperiores quae.', 
     profilePicture: 'assets/img/dps/10.jpeg', 
     timeStamp: '13:30',
+    isSender: false,
   ),
   Chat(
-    username: '+254112345678 (You)', 
+    username: '+254 112 345678 (You)', 
     message: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, numquam omnis aspernatur illo tenetur beatae labore impedit eveniet, explicabo voluptates eaque sint qui odit error fugiat ex sunt asperiores quae.', 
     profilePicture: 'assets/img/default.png', 
     timeStamp: '13:15',
@@ -44,14 +48,14 @@ List<Chat> userMessages = [
     message: '~ king: A man is driven by purpose. Find your purpose in life and you will become unstoppable! 💪🏾', 
     profilePicture: 'assets/img/dps/11.jpeg', 
     timeStamp: '13:00',
+    isSender: false,
   ),
   Chat(
     username: 'Brenda jones', 
     message: "Sweet dreams boo 😘", 
     profilePicture: 'assets/img/dps/7.jpg', 
     timeStamp: '12:30',
-    isRead: false,
-    isReceived: true,
+    isSender: false,
   ),
   Chat(
     username: 'Yule msee', 
@@ -62,10 +66,11 @@ List<Chat> userMessages = [
     isReceived: true,
   ),
   Chat(
-    username: '+254712345689', 
+    username: '+254 712 345689', 
     message: "Hey testuser. It's Amanda, I have changed my mobile no. Kindly contact me via this number. 😘", 
     profilePicture: 'assets/img/dps/1.jpg', 
     timeStamp: 'Yesterday',
+    isSender: false,
   ),
   Chat(
     username: 'John Doe', 
@@ -80,6 +85,7 @@ List<Chat> userMessages = [
     message: '~ arthur: Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, numquam omnis aspernatur illo tenetur beatae labore impedit eveniet, explicabo voluptates eaque sint qui odit error fugiat ex sunt asperiores quae.', 
     profilePicture: 'assets/img/dps/12.jpeg', 
     timeStamp: '05/31/24',
+    isSender: false,
   ),
   Chat(
     username: 'Sharon', 
@@ -99,12 +105,14 @@ List<Chat> userMessages = [
     username: 'Hugo', 
     message: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, numquam omnis aspernatur illo tenetur beatae labore impedit eveniet, explicabo voluptates eaque sint qui odit error fugiat ex sunt asperiores quae.', 
     profilePicture: 'assets/img/dps/6.jpg', 
-    timeStamp: '05/15/24',
+    timeStamp: '05/15/24', 
   ),
   Chat(
     username: 'Tate', 
     message: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, numquam omnis aspernatur illo tenetur beatae labore impedit eveniet, explicabo voluptates eaque sint qui odit error fugiat ex sunt asperiores quae.', 
     profilePicture: 'assets/img/dps/9.jpg', 
     timeStamp: '04/25/24',
+    isRead: false,
+    isReceived: true,
   ),
 ];
