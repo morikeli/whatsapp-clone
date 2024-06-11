@@ -8,7 +8,7 @@ class MessagesWidget extends StatelessWidget {
   final String username;
   final String message;
   final String timeStamp;
-  final Icon? messageTick;
+  final Chat messageTick;
 
   const MessagesWidget({
     super.key,
