@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp_clone/constants/colors.dart';
 import 'package:whatsapp_clone/models/chats.dart';
+import 'package:whatsapp_clone/screens/chats/chat_screen.dart';
 import 'package:whatsapp_clone/screens/homepage/components/inbox_messages.dart';
 
 
