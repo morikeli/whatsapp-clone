@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone/constants/colors.dart';
+import 'package:whatsapp_clone/models/chats.dart';
 
 
 class MessagesWidget extends StatelessWidget {
