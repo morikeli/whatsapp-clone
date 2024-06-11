@@ -10,8 +10,8 @@ import 'package:whatsapp_clone/screens/signup/signup_screen.dart';
 final Map<String, WidgetBuilder> routes = {
   OnboardingScreen.routeName: (context) => const OnboardingScreen(),
   LoginScreen.routeName: (context) => const LoginScreen(),
-  OTPScreen.routeName:(context) => const OTPScreen(),
+  OTPScreen.routeName: (context) => const OTPScreen(),
   SignupScreen.routeName: (context) => const SignupScreen(),
-  HomeScreen.routeName:(context) => const HomeScreen(),
+  HomeScreen.routeName: (context) => const HomeScreen(),
   ChatScreen.routeName: (context) => const ChatScreen(),
 } ;
