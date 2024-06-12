@@ -21,7 +21,7 @@ AppBar homepageHeader() {
         icon: const Icon(Icons.search_outlined),
       ),
       IconButton(
-        onPressed: () {}, 
+        onPressed: () => Navigator.pushNamed(context, SettingsScreen.routeName), 
         icon: const Icon(Icons.more_vert),
       ),
     ],
