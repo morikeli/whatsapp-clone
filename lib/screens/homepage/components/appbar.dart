@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_clone/screens/settings/settings_screen.dart';
 
 
-AppBar homepageHeader() {
+AppBar homepageHeader(context) {
   return AppBar(
     automaticallyImplyLeading: false,
     title: const Text(
