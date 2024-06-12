@@ -49,6 +49,10 @@ Clone this repository by opening your terminal/CMD and change the current workin
 
 
 ## Contributor expectations
-Incase of a bug or you wish to make an update create a new branch using git command `git checkout -b <name of your branch>` and create a pull request. Wait for review.
+Incase of a bug or you wish to make a contribution, create a new branch using the git command `git checkout -b <name of your branch>` and create a pull request. Wait for review.
 
+You can also open an issue using the `Issues` tab. The reported issue will be reviewed and formulate a solution to the problem.
+
+
+### Request
 Don't forget to star the repo 🌟😉
