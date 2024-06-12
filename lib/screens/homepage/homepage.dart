@@ -10,7 +10,7 @@ class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: homepageHeader(),
+      appBar: homepageHeader(context),
       body: const HomepageBody(),
       floatingActionButton: const NewMessageWidget(),
     );
