@@ -100,6 +100,7 @@ List<Chat> userMessages = [
     message: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, numquam omnis aspernatur illo tenetur beatae labore impedit eveniet, explicabo voluptates eaque sint qui odit error fugiat ex sunt asperiores quae.', 
     profilePicture: 'assets/img/dps/5.jpg', 
     timeStamp: '05/16/24',
+    isReceived: true,
   ),
   Chat(
     username: 'Hugo', 
