@@ -113,7 +113,6 @@ List<Chat> userMessages = [
     message: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, numquam omnis aspernatur illo tenetur beatae labore impedit eveniet, explicabo voluptates eaque sint qui odit error fugiat ex sunt asperiores quae.', 
     profilePicture: 'assets/img/dps/9.jpg', 
     timeStamp: '04/25/24',
-    isRead: false,
     isReceived: true,
   ),
 ];
