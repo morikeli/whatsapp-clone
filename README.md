@@ -2,9 +2,9 @@
 
 ## Demo
 
-| Welcome screen | Homescreen |
-| -------------- | ---------- |
-| ![flutter_02](https://github.com/morikeli/whatsapp-clone/assets/78599959/46b0f639-e0b7-4f3a-af1a-2d139ee6331b) | ![IMG_20240612_104422](https://github.com/morikeli/whatsapp-clone/assets/78599959/12bc3f9c-b791-435f-aa63-920ad619d360) |
+
+https://github.com/morikeli/whatsapp-clone/assets/78599959/d6c3f560-ed77-4f0e-aae9-17129535ff18
+
 
 
 ## Overview
