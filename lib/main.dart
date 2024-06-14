@@ -15,7 +15,6 @@ class WhatsAppClone extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
       theme: ThemeData(
         appBarTheme: const AppBarTheme(
           color: kAppBarColor,
