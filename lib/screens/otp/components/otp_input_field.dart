@@ -14,7 +14,7 @@ class OtpInputField extends StatelessWidget {
       width: MediaQuery.of(context).size.width * .5,
       child: TextField(
         decoration: const InputDecoration(
-          hintText: '------',
+          hintText: '-  -  -  -  -  -',
           hintStyle: TextStyle(fontSize: 30.0, color: kTextColor)
         ),
         keyboardType: TextInputType.number,
