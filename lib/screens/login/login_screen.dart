@@ -14,6 +14,25 @@ class LoginScreen extends StatefulWidget {
 
 class _LoginScreenState extends State<LoginScreen> {
   final mobileNumberController = TextEditingController();
+  Country? selectCountry;
+
+  @override
+  void dispose() {
+    super.dispose();
+    mobileNumberController.dispose();
+  }
+
+  void _pickCountry() {
+    showCountryPicker(
+      showPhoneCode: true,
+      context: context, 
+      onSelect: (Country country) {
+        setState(() {
+          selectCountry = country;
+        });
+      }
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
