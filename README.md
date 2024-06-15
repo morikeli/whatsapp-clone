@@ -3,7 +3,7 @@
 ## Demo
 
 
-https://github.com/morikeli/whatsapp-clone/assets/78599959/d6c3f560-ed77-4f0e-aae9-17129535ff18
+https://github.com/morikeli/whatsapp-clone/assets/78599959/edc59e38-32bb-466f-baaa-aa5cc3cba3fa
 
 
 
