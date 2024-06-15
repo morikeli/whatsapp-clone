@@ -6,9 +6,11 @@ class MobileNumberInputField extends StatelessWidget {
   const MobileNumberInputField({
     super.key,
     required this.mobileNumberController,
+    required this.countryCode,
   });
 
   final TextEditingController mobileNumberController;
+  final String? countryCode;
 
   @override
   Widget build(BuildContext context) {
