@@ -23,7 +23,10 @@ class MobileNumberInputField extends StatelessWidget {
             decoration: BoxDecoration(
               color: Colors.grey.withOpacity(.4),
             ),
-            child: const Text('+254', style: TextStyle(color: kTextColor)),
+            child: Text(
+              countryCode == null ? '+1' : '+$countryCode', 
+              style: const TextStyle(color: kTextColor)
+            ),
           ),
           const SizedBox(width: 10.0),
           SizedBox(
