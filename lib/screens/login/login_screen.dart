@@ -42,7 +42,11 @@ class _LoginScreenState extends State<LoginScreen> {
         centerTitle: true,
         title: const Text('Enter your mobile number'),
       ),
-      body: LoginScreenBody(mobileNumberController: mobileNumberController),
+      body: LoginScreenBody(
+        mobileNumberController: mobileNumberController,
+        selectCountry: _pickCountry,
+        selectedCountryCode: selectCountry?.phoneCode,
+      ),
     );
   }
 }
