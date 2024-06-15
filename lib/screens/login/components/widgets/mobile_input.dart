@@ -24,7 +24,7 @@ class MobileNumberInputField extends StatelessWidget {
               color: Colors.grey.withOpacity(.4),
             ),
             child: Text(
-              countryCode == null ? '+1' : '+$countryCode', 
+              countryCode == null ? '+1' : '+$countryCode',  // if country code is null display '+1' else display the country code
               style: const TextStyle(color: kTextColor)
             ),
           ),
