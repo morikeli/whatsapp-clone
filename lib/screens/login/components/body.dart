@@ -9,9 +9,13 @@ class LoginScreenBody extends StatelessWidget {
   const LoginScreenBody({
     super.key,
     required this.mobileNumberController,
+    required this.selectCountry,
+    required this.selectedCountryCode,
   });
 
   final TextEditingController mobileNumberController;
+  final void Function() selectCountry;
+  final String? selectedCountryCode;
 
   @override
   Widget build(BuildContext context) {
