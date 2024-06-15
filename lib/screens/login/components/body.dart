@@ -24,9 +24,9 @@ class LoginScreenBody extends StatelessWidget {
         children: [
           const Text('WhatsApp will need to verify your number', style: TextStyle(color: kTextColor)),
           const SizedBox(height: 10.0),
-          const SelectCountryButton(),
+          SelectCountryButton(selectCountry: selectCountry),
           const SizedBox(height: 20.0),
-          MobileNumberInputField(mobileNumberController: mobileNumberController),
+          MobileNumberInputField(mobileNumberController: mobileNumberController, countryCode: selectedCountryCode),
           SizedBox(height: MediaQuery.of(context).size.height * .58),
           const NextButton(),
         ],
