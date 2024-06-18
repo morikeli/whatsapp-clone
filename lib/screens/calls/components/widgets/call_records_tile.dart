@@ -44,7 +44,10 @@ class CallRecordTile extends StatelessWidget {
           ),
         ],
       ),
-      trailing: const Icon(Icons.phone_outlined, color: kIconColor,),
+      trailing: IconButton(
+        onPressed: () {},
+        icon: const Icon(Icons.phone_outlined, color: kIconColor),
+        ),
     );
   }
 }
