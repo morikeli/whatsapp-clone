@@ -28,6 +28,10 @@ class UpdatesScreenBody extends StatelessWidget {
           const ChannelsHeader(),
           const SizedBox(height: 5.0),
           ...channels(),
+          const SizedBox(height: 15.0),
+          const SuggestedChannelsHeader(),
+          const SuggestedChannels(),
+          const SizedBox(height: 15.0),
         ],
       ),
     );
