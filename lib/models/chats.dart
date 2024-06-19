@@ -103,8 +103,8 @@ List<Chat> userMessages = [
     isReceived: true,
   ),
   Chat(
-    username: 'Hugo', 
-    message: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, numquam omnis aspernatur illo tenetur beatae labore impedit eveniet, explicabo voluptates eaque sint qui odit error fugiat ex sunt asperiores quae.', 
+    username: '+254 701 234568', 
+    message: "Who's this?? 🤔😒 I missed your call yesterday.", 
     profilePicture: 'assets/img/dps/6.jpg', 
     timeStamp: '05/15/24', 
   ),
