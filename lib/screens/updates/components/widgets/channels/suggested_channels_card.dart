@@ -14,41 +14,66 @@ class SuggestedChannelsCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 120.0,
+      width: 150.0,
       child: Card(
-        color: kPrimaryColor.withOpacity(.15),
+        color: Colors.transparent,
         child: Padding(
           padding: const EdgeInsets.all(10.0),
           child: Column(
             children: [
-              CircleAvatar(
-                backgroundColor: Colors.white,
-                backgroundImage: AssetImage(channelProfilePicture),
-                radius: 28.0,
+              Stack(
+                children: [
+                  CircleAvatar(
+                    backgroundColor: Colors.white,
+                    backgroundImage: AssetImage(channelProfilePicture),
+                    radius: 37.0,
+                  ),
+                  Positioned(
+                    bottom: 0,
+                    right: 0,
+                    child: Container(
+                      decoration: const BoxDecoration(
+                        color: kbackgroundColor,
+                        shape: BoxShape.circle,
+                      ),
+                      padding: const EdgeInsets.all(2.0),
+                      child: const Icon(Icons.verified, color: kPrimaryColor, size: 20.0),
+                    ),
+                  )
+                ],
               ),
               const SizedBox(height: 10.0),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  SizedBox(
-                    width: 
-                    name.characters.length < 5
-                    ? 38.0 :
-                    name.characters.length < 8 
-                    ? 58.0 : 65.0,
-                    child: Text(
-                      name,
-                      softWrap: true,
-                      style: const TextStyle(
-                        color: kTextColor,
-                        overflow: TextOverflow.ellipsis
-                      ),
-                      textAlign: TextAlign.center,
-                    ),
+              
+              // channel name
+              SizedBox(
+                width: MediaQuery.of(context).size.width * .8,
+                child: Text(
+                  name,
+                  softWrap: true,
+                  style: const TextStyle(
+                    color: kTextColor,
+                    overflow: TextOverflow.ellipsis
                   ),
-                  const Icon(Icons.verified, color: kPrimaryColor, size: 18.0),
-                ],
-              )
+                  textAlign: TextAlign.center,
+                ),
+              ),
+              const SizedBox(height: 10.0),
+              
+              // follow button
+              Container(
+                height: 35.0,
+                width: MediaQuery.of(context).size.width * .8,
+                // padding: const EdgeInsets.all(1.0),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20.0),
+                  color: kPrimaryColor.withOpacity(.5),
+                ),
+                child: TextButton(
+                  onPressed: () {},
+                  child: const Text('Follow', style: TextStyle(color: Colors.white)),
+                ),
+              ),
+            
             ],
           ),
         ),
