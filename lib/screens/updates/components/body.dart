@@ -31,7 +31,7 @@ class UpdatesScreenBody extends StatelessWidget {
           const SizedBox(height: 15.0),
           const SuggestedChannelsHeader(),
           const SuggestedChannels(),
-          const SizedBox(height: 15.0),
+          const SizedBox(height: 135.0),
         ],
       ),
     );
