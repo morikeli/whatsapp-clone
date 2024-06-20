@@ -14,7 +14,7 @@ class SuggestedChannelsHeader extends StatelessWidget {
       child: Row(
         children: [
           const Text(
-            'Find channels',
+            'Suggested channels',
             style: TextStyle(
               color: kTextColor,
               fontSize: 16.0,
