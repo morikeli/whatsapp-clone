@@ -3,12 +3,12 @@ import 'package:whatsapp_clone/constants/colors.dart';
 
 
 class SuggestedChannelsCard extends StatelessWidget {
-  final String channelName, profilePicture;
+  final String name, channelProfilePicture;
 
   const SuggestedChannelsCard({
     super.key,
-    required this.channelName,
-    required this.profilePicture,
+    required this.name,
+    required this.channelProfilePicture,
   });
 
   @override
@@ -23,7 +23,7 @@ class SuggestedChannelsCard extends StatelessWidget {
             children: [
               CircleAvatar(
                 backgroundColor: Colors.white,
-                backgroundImage: AssetImage(profilePicture),
+                backgroundImage: AssetImage(channelProfilePicture),
                 radius: 28.0,
               ),
               const SizedBox(height: 10.0),
@@ -32,12 +32,12 @@ class SuggestedChannelsCard extends StatelessWidget {
                 children: [
                   SizedBox(
                     width: 
-                    channelName.characters.length < 5
+                    name.characters.length < 5
                     ? 38.0 :
-                    channelName.characters.length < 8 
+                    name.characters.length < 8 
                     ? 58.0 : 65.0,
                     child: Text(
-                      channelName,
+                      name,
                       softWrap: true,
                       style: const TextStyle(
                         color: kTextColor,
