@@ -24,7 +24,7 @@ class SuggestedChannels extends StatelessWidget {
           SuggestedChannelsCard(name: 'Manchester City', channelProfilePicture: 'assets/img/channels/manchester-city.jpg'),
           SuggestedChannelsCard(name: 'Manchester United', channelProfilePicture: 'assets/img/channels/manchester-united.jpg'),
           SuggestedChannelsCard(name: 'Mercedes Benz', channelProfilePicture: 'assets/img/channels/mercedes-logo.jpg'),          
-          SuggestedChannelsCard(name: 'Nat Geo', channelProfilePicture: 'assets/img/channels/nat-geo.jpg'),
+          SuggestedChannelsCard(name: 'National Geographic', channelProfilePicture: 'assets/img/channels/nat-geo.jpg'),
           SuggestedChannelsCard(name: 'OpenAI', channelProfilePicture: 'assets/img/channels/OpenAI.png'),
           SuggestedChannelsCard(name: 'Porsche', channelProfilePicture: 'assets/img/channels/porsche.jpg'),
           SuggestedChannelsCard(name: 'Ronaldo CR7', channelProfilePicture: 'assets/img/channels/cr-7.png'),
