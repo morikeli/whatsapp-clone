@@ -48,15 +48,15 @@ class CallHistory extends StatelessWidget {
           usernameColor: Colors.white,
         ),
         CallRecordTile(
-          username: '+254 701 234568',
-          profilePicture: 'assets/img/dps/6.jpg',
-          timeStamp: 'June 1, 20:00',
-          recordIcon: Icons.call_received,
-        ),
-        CallRecordTile(
           username: 'Irene',
           profilePicture: 'assets/img/dps/5.jpg',
           timeStamp: 'May 30, 19:30',
+          recordIcon: Icons.call_received,
+        ),
+        CallRecordTile(
+          username: '+254 701 234568',
+          profilePicture: 'assets/img/dps/6.jpg',
+          timeStamp: 'May 15, 20:00',
           recordIcon: Icons.call_received,
         ),
       ],
