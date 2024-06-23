@@ -39,8 +39,8 @@ class MessagesWidget extends StatelessWidget {
           ),
           Text(
             timeStamp,
-            style: const TextStyle(
-              color: kTextDarkColor,
+            style: TextStyle(
+              color: !messageTick.isSender ? kPrimaryColor : kTextDarkColor ,
               fontSize: 12.0,
             ),
           ),
