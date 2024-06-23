@@ -69,6 +69,23 @@ class MessagesWidget extends StatelessWidget {
                 ),
               ),
             ),
+
+            if(!messageTick.isSender)
+            Container(
+              decoration: const BoxDecoration(
+                color: kPrimaryColor,
+                shape: BoxShape.circle,
+              ),
+              padding: const EdgeInsets.all(6.0),
+              child: const Text(
+                '1',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 10.0,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
           ],
         ),
       ),
